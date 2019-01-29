@@ -87,3 +87,11 @@ $(document).ready(function(){
     });
   });
 });
+
+$("td#issue").bind("click",function() {
+      window.open('https://github.com/rrenode/courses/issues', '_blank');
+   });
+   
+$("td#contribute").bind("click",function() {
+      window.open('https://github.com/rrenode/courses', '_blank');
+   });
