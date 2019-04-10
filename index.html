@@ -14,6 +14,7 @@
 
 </head>
 <body>
+	<!-- Header box-->
 	<h1><span class="blue">&lt;</span>Ivy League<span class="blue">&gt;</span> <span class="yellow">Courses</span></h1>
 	<h2>Created with love by <a href="https://robert.renode.design" target="_blank">Robert J Renode IV</a></h2>
 
@@ -29,14 +30,16 @@
 
 	&nbsp;
 	&nbsp;
-	<!--<input id="searchInput" type="text" placeholder="Search...">-->
+	<!--The table itself-->
 	<table class="container" id="classTable">
 		<thead>
+			<!-- Search bar and buttons to external sites -->
 			<tr class="disabled">
 				<td class="disabled search"><input id="searchInput" type="text" placeholder="Search..."></td>
 				<td class="red" id="issue">Report an issue</td>
 				<td class="green" id="contribute" >Contribute</td>
 			</tr>
+			<!-- Allows ability to sort each table on click -->
 			<tr>
 				<th onclick="sortTable(0)"><h1>Name</h1></th> 
 				<th onclick="sortTable(1)"><h1>School</h1></th>
@@ -44,7 +47,7 @@
 			</tr>
 		</thead>
 		<tbody class="post">
-			<!-- Javascript adds content here from Google Doc -->
+			<!-- Javascript library adds content here from Google Doc -->
 		</tbody>
 	</table>
 </body>
@@ -58,6 +61,6 @@
 <!-----Tabletop JS-----> 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
 
-<!-----Custom JS for webpage-----> 
+<!-----Custom JS-----> 
 <script src='script.js'></script>
 </html>
