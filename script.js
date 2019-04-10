@@ -12,7 +12,7 @@ function showInfo(data, tabletop) {
     
     for (var i = 0; i < data.length; i++) {
 	$('.post').append(
-	'<tr><td><a href="' + data[i].link + ')">' +
+	'<tr><td><a href="' + data[i].link + '">' +
 	'<div class="school">' + data[i].name + 
 	'</div></a></td>' +
 	'<td>' + data[i].school + '</td>'+
