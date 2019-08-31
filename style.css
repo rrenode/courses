@@ -164,8 +164,9 @@ div a:hover {
 }
 
 .info {
-	width: 80%;
+    width: 80%;
     margin: auto;
+    padding: auto 3px auto 3px;
     background-color: #af4d5aa8;
     border-color: #FB667A;
     border-style: solid;
