@@ -10,4 +10,4 @@ The biggest help right now is with keeping the links and courses up-to-date. You
 
 If you plan to help with fixing any code or such, note that I used [TableTop.js]([https://github.com/jsoma/tabletop](https://github.com/jsoma/tabletop)) to read the data from the Google Sheets document. Something that should be investigated is other ways of hosting the "dynamic" data and then relaying it to a static host such as Github pages.
 
-If you're willing to help with code, I do want to extend this project further and create a true searchable system full of free valuable courses of all different kinds. Feel free to contact me if you wish to help contribute to the current project or the larger project.
+If you're willing to help with code, I do want to extend this project further and create a true searchable system full of free and valuable courses from wide branches of knowledge. Feel free to contact me if you wish to help contribute to the current project or the larger project.
